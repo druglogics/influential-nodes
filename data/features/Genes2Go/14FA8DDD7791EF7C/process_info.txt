@@ -1,0 +1,9 @@
+Processing information
+Reading genes from text box.
+Number of genes read : 198
+Time elapsed  6.725 sec.
+Getting data from biomaRt...
+Got biomaRt data in time: 10.711 sec.
+processing biomaRt data....
+Writing result, time elapsed: 227.135 sec.
+Total genes: 198 Total GO terms: 3347

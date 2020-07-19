@@ -1,0 +1,23 @@
+NodeFeartures=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.txt *.conf" {
+ workflow.rb
+ bin=bin filter="*"{
+ }
+ lib=lib {
+ }
+ test=test {
+  test_helper.rb
+ }
+ R=R filter="*.R"{
+  20190221_Random_Forest.R
+ }
+ data=data filter="*"{
+  20190201_Node_features_new.txt
+  20190205_Gene2GO_node_list.txt
+  20190206_COSMIC_node_census.tier_oncogene_tumor.suppressor.txt
+  20190207_Nr_of_Pubmed_Publications_per_node.txt
+  ACSN_pathways_binary.txt
+  Classification_influential_nodes.txt
+  KEGG_pathways_binary.txt
+  Reactome_pathways_binary.txt
+ }
+}
